@@ -1,0 +1,23 @@
+{
+  "name": "Softzarz/Blog",
+  "description": "A simple Blog System",
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Gustavo Andrade Ferreira",
+      "email": "ferreira@comp.ufla.br"
+    }
+  ],
+  "require": {
+    "cartalyst/sentinel": "2.0.x-dev",
+    "illuminate/database": "5.0.x",
+    "illuminate/events": "5.0.x-dev",
+    "symfony/http-foundation": "2.7.x-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Softzar\\Blog\\": "src/"
+    }
+  }
+}
